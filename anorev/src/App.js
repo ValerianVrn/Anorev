@@ -5,7 +5,6 @@ import About from './pages/About'
 import Contact from './pages/Contact'
 import Questions from './pages/Questions'
 import Navigation from './components/Navigation'
-import Container from 'react-bootstrap/Container';
 
 function App() {
   return (

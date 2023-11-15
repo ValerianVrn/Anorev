@@ -3,16 +3,11 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
-import { Link } from 'react-router-dom';
+import BookingCalendar from '../components/BookingCalendar';
 
 export default function Contact() {
     return (
         <>
-            {/* <Wrapper apiKey={"AIzaSyDfMzqgxzND1QoIzb0_juynUo8XL3wcbMQ"}>
-                <Map center={center} zoom={zoom}>
-                    <Marker position={position} />
-                </Map>
-            </Wrapper> */}
             <Container>
                 <Row>
                     <Col>
@@ -40,6 +35,9 @@ export default function Contact() {
                             </Card.Body>
                         </Card>
                     </Col>
+                </Row>
+                <Row>
+                    <BookingCalendar />
                 </Row>
             </Container>
         </>
