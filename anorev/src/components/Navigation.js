@@ -9,7 +9,7 @@ export default function Navigation() {
     return (
         <Navbar expand="lg" sticky="top" bg="dark" data-bs-theme="dark">
           <Container>
-            <Navbar.Brand as={Link} to="/">Anorev – Service d'hypnose ericksonienne</Navbar.Brand>
+            <Navbar.Brand as={Link} to="/">Anorev</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">
