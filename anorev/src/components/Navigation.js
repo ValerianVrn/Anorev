@@ -3,39 +3,29 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import { Link } from 'react-scroll';
-import { scroller } from 'react-scroll';
 
 export default function Navigation() {
-  
-  const scrollToSection = (target) => {
-    scroller.scrollTo(target, {
-      duration: 800,
-      delay: 0,
-      smooth: 'easeInOutQuart',
-    });
-  };
-
   return (
       <Navbar expand="lg" sticky="top" bg="dark" data-bs-theme="dark">
         <Container>
-          <Link to="home" spy={true} smooth={true} duration={250}><Navbar.Brand>Anorev</Navbar.Brand></Link>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
+          <Navbar.Brand href="#home">Anorev</Navbar.Brand>
+          <Navbar.Toggle aria-controls="navbarScroll" />
+          <Navbar.Collapse id="navbarScroll">
             <Nav className="me-auto">
-              <Link to="home" spy={true} smooth={true} duration={250}><Nav.Link>Accueil</Nav.Link></Link>
+              <Nav.Link href="#home">Accueil</Nav.Link>
               <NavDropdown title="À propos" id="basic-nav-dropdown">
-                <Link to="me" spy={true} smooth={true} duration={250}><NavDropdown.Item>Ma démarche</NavDropdown.Item></Link>
-                <Link to="office" spy={true} smooth={true} duration={250}><NavDropdown.Item>Le cabinet</NavDropdown.Item></Link>
-                <Link to="erickson-hypnosis" spy={true} smooth={true} duration={250}><NavDropdown.Item>L'hypnose ericksonienne</NavDropdown.Item></Link>
+                <NavDropdown.Item href="#me">Ma démarche</NavDropdown.Item>
+                <NavDropdown.Item href="#office">Le cabinet</NavDropdown.Item>
+                <NavDropdown.Item href="#erickson-hypnosis">L'hypnose ericksonienne</NavDropdown.Item>
               </NavDropdown>
               <NavDropdown title="Questions" id="basic-nav-dropdown">
-                <Link to="questions-session-description" spy={true} smooth={true} duration={250}><NavDropdown.Item>Comment se déroule une séance?</NavDropdown.Item></Link>
-                <Link to="questions-session-duration" spy={true} smooth={true} duration={250}><NavDropdown.Item>Combien de temps dure une séance?</NavDropdown.Item></Link>
-                <Link to="questions-session-number" spy={true} smooth={true} duration={250}><NavDropdown.Item>Combien de séances sont recommandées?</NavDropdown.Item></Link>
-                <Link to="questions-why-erickson" spy={true} smooth={true} duration={250}><NavDropdown.Item>Pourquoi choisir l'hypnose ericksonienne?</NavDropdown.Item></Link>
+                <NavDropdown.Item href="#questions-session-description">Comment se déroule une séance?</NavDropdown.Item>
+                <NavDropdown.Item href="#questions-session-duration">Combien de temps dure une séance?</NavDropdown.Item>
+                <NavDropdown.Item href="#questions-session-number">Combien de séances sont recommandées?</NavDropdown.Item>
+                <NavDropdown.Item href="#questions-why-erickson">Pourquoi choisir l'hypnose ericksonienne?</NavDropdown.Item>
               </NavDropdown>
-              <Link to="contact" spy={true} smooth={true} duration={250}><Nav.Link>Contact</Nav.Link></Link>
+                <Nav.Link href="#contact">Contact</Nav.Link>
+              <Navbar.Text><a href="tel:+33749072925">07 49 07 29 25</a></Navbar.Text>
             </Nav>
           </Navbar.Collapse>
         </Container>
