@@ -19,6 +19,7 @@ export default function About() {
                     <p>J’ai hâte de vous aider à découvrir votre potentiel caché à travers l’hypnose.</p>
                 </Container>
             </article>
+            <hr/>
             <article>
                 <Container id="office" className="p-5">
                     <Row className="gx-5">
@@ -32,6 +33,7 @@ export default function About() {
                     </Row>
                 </Container>                
             </article>
+            <hr/>
             <article>                
                 <Container id="erickson-hypnosis" className="p-5">
                     <Row className="gx-5">
