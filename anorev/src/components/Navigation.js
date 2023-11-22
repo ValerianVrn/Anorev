@@ -25,7 +25,6 @@ export default function Navigation() {
                 <NavDropdown.Item href="#questions-why-erickson">Pourquoi choisir l'hypnose ericksonienne?</NavDropdown.Item>
               </NavDropdown>
                 <Nav.Link href="#contact">Contact</Nav.Link>
-              <Navbar.Text><a href="tel:+33749072925">07 49 07 29 25</a></Navbar.Text>
             </Nav>
           </Navbar.Collapse>
         </Container>
