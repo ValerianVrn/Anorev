@@ -3,6 +3,7 @@ import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Table from 'react-bootstrap/Table';
 import BookingCalendar from '../components/BookingCalendar';
 
 export default function Contact() {
@@ -39,8 +40,40 @@ export default function Contact() {
                         </Card>
                     </Col>
                 </Row>
+            </Container>
+            <Container className="p-5">
                 <Row>
-                    <BookingCalendar />
+                    <Col className="d-flex flex-column align-items-center justify-content-center">
+                        <Table bordered >
+                            <thead>
+                                <tr>
+                                    <th></th>
+                                    <th className="text-center align-middle">Avec rendez-vous</th>
+                                    <th className="text-center align-middle">Sans rendez-vous</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th>Mardi</th>
+                                    <td rowSpan={4} className="text-center align-middle">10h-19h</td>
+                                    <td className="text-center align-middle">10h-14h</td>
+                                </tr>
+                                <tr>
+                                    <th>Jeudi</th>
+                                    <td rowSpan={3} className="text-center align-middle">14h-18h</td>
+                                </tr>
+                                <tr>
+                                    <th>Vendredi (semaines paires)</th>
+                                </tr>
+                                <tr>
+                                    <th>Samedi (semaines impaires)</th>
+                                </tr>
+                            </tbody>
+                        </Table>
+                    </Col>
+                    <Col className="d-flex flex-column align-items-center justify-content-center">
+                        <BookingCalendar />
+                    </Col>
                 </Row>
             </Container>
         </section>
