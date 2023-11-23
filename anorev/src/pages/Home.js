@@ -77,7 +77,7 @@ export default function Home() {
                                 <Card.Title>10h-19h</Card.Title>
                                 <Card.Text>
                                     Tous les mardis, jeudis, vendredis (semaines paires) et samedis (semaines impaires)<br/>
-                                    <small className="text-muted">Sans rendez-vous également</small>
+                                    <small className="text-muted">Avec ou sans rendez-vous</small>
                                 </Card.Text>
                             </Card.Body>
                         </Card>

@@ -40,9 +40,9 @@ export default function About() {
                         <Col>
                             <h1>L'hypnose ericksonienne</h1>
                             <p>L'hypnose ericksonienne est une approche bienveillante et puissante visant à explorer les ressources internes de chacun pour favoriser le changement positif. Contrairement aux idées préconçues, elle ne plonge pas dans un état de sommeil profond, mais plutôt dans un état de relaxation profonde où votre esprit est particulièrement réceptif aux suggestions positives.</p>
-                            </Col>
+                        </Col>
                         <Col>
-                            <Image src="office.jpg" fluid />
+                            <Image src="hypnosis.webp" fluid />
                         </Col>
                     </Row>
                 </Container>                

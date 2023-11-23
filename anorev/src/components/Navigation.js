@@ -8,13 +8,15 @@ export default function Navigation() {
   return (
       <Navbar expand="lg" sticky="top" bg="dark" data-bs-theme="dark">
         <Container>
-          <Navbar.Brand href="#home">Anorev</Navbar.Brand>
+          <Navbar.Brand href="#home">
+            <img alt="logo" src="/logo512.png" width="30" height="30" className="d-inline-block align-top" />{' '}Anorev
+          </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav className="me-auto">
               <Nav.Link href="#home">Accueil</Nav.Link>
               <NavDropdown title="À propos" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#me">Ma démarche</NavDropdown.Item>
+                <NavDropdown.Item href="#me">Mon approche</NavDropdown.Item>
                 <NavDropdown.Item href="#office">Le cabinet</NavDropdown.Item>
                 <NavDropdown.Item href="#erickson-hypnosis">L'hypnose ericksonienne</NavDropdown.Item>
               </NavDropdown>
