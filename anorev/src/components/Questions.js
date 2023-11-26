@@ -9,8 +9,7 @@ export default function Questions() {
             <Container fluid className="mx-0 px-0 bg-light">
                 <Container className="p-5">
                     <h1>Questions</h1>
-                    <p>Vous avez des questions? Je reste disponible pour échanger avec vous sur vos besoins, ma pratique, l’hypnose eriksonienne ou tout autre sujet.</p>
-                    <Accordion>
+                    <Accordion className="py-3">
                         <Accordion.Item id="questions-session-description" eventKey="0">
                             <Accordion.Header>Comment se déroule une séance?</Accordion.Header>
                             <Accordion.Body>
@@ -61,6 +60,7 @@ export default function Questions() {
                             </Accordion.Body>
                         </Accordion.Item>
                     </Accordion>
+                    <p>Vous avez d'autres questions? Je reste disponible pour échanger avec vous sur vos besoins, ma pratique, l’hypnose eriksonienne ou tout autre sujet.</p>                                    
                 </Container>
             </Container>
         </section>
