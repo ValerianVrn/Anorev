@@ -5,6 +5,7 @@ import About from '../components/About';
 import Contact from '../components/Contact';
 import Introduction from '../components/Introduction';
 import Information from '../components/Information';
+import Navigation from '../components/Navigation'
 import Questions from '../components/Questions';
 import './Main.css';
 
@@ -30,8 +31,16 @@ export default function Main() {
         };
     }, []);
 
+    // Open the accordion when navigating to it.
+    const [activeAccordionKey, setActiveAccordionKey] = useState(null);
+
+    const handleNavItemClick = (eventKey) => {
+        setActiveAccordionKey(eventKey);
+    };
+
     return (
         <>
+        <Navigation handleNavItemClick={handleNavItemClick}/>
         <Container id="home" fluid className="mx-0 px-0 cover-container">
             <Image src="cover.jpg" className="w-100 object-fit-cover" style={{ height: imageHeight }}/>
             <Container id="text-overlay" className="p-5 gx-5 text-overlay">
@@ -42,7 +51,7 @@ export default function Main() {
         <Introduction/>
         <Information/>
         <About/>
-        <Questions/>
+        <Questions activeKey={activeAccordionKey} handleAccordionToggle={handleNavItemClick}/>
         <Contact/>
         </>
     );

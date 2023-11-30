@@ -2,14 +2,14 @@ import React from "react";
 import Accordion from 'react-bootstrap/Accordion';
 import Container from 'react-bootstrap/Container';
 
-export default function Questions() {
+export default function Questions({ activeKey, handleAccordionToggle }) {
     return (
         <>
         <section>
             <Container fluid className="mx-0 px-0 bg-light">
                 <Container className="p-5">
                     <h1>Questions</h1>
-                    <Accordion className="py-3">
+                    <Accordion className="py-3" activeKey={activeKey} onSelect={handleAccordionToggle}>
                         <Accordion.Item id="questions-session-description" eventKey="0">
                             <Accordion.Header>Comment se déroule une séance?</Accordion.Header>
                             <Accordion.Body>

@@ -4,7 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
-export default function Navigation() {
+export default function Navigation({ handleNavItemClick }) {
   return (
       <Navbar expand="lg" sticky="top" bg="dark" data-bs-theme="dark">
         <Container>
@@ -21,10 +21,10 @@ export default function Navigation() {
                 <NavDropdown.Item href="#erickson-hypnosis">L'hypnose ericksonienne</NavDropdown.Item>
               </NavDropdown>
               <NavDropdown title="Questions" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#questions-session-description">Comment se déroule une séance?</NavDropdown.Item>
-                <NavDropdown.Item href="#questions-session-duration">Combien de temps dure une séance?</NavDropdown.Item>
-                <NavDropdown.Item href="#questions-session-number">Combien de séances sont recommandées?</NavDropdown.Item>
-                <NavDropdown.Item href="#questions-why-erickson">Pourquoi choisir l'hypnose ericksonienne?</NavDropdown.Item>
+                <NavDropdown.Item href="#questions-session-description" onClick={() => handleNavItemClick('0')}>Comment se déroule une séance?</NavDropdown.Item>
+                <NavDropdown.Item href="#questions-session-duration" onClick={() => handleNavItemClick('1')}>Combien de temps dure une séance?</NavDropdown.Item>
+                <NavDropdown.Item href="#questions-session-number" onClick={() => handleNavItemClick('2')}>Combien de séances sont recommandées?</NavDropdown.Item>
+                <NavDropdown.Item href="#questions-why-erickson" onClick={() => handleNavItemClick('3')}>Pourquoi choisir l'hypnose ericksonienne?</NavDropdown.Item>
               </NavDropdown>
                 <Nav.Link href="#contact">Contact</Nav.Link>
             </Nav>
