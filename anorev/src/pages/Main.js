@@ -44,8 +44,8 @@ export default function Main() {
         <Container id="home" fluid className="mx-0 px-0 cover-container">
             <Image src="cover.jpg" className="w-100 object-fit-cover" style={{ height: imageHeight }}/>
             <Container id="text-overlay" className="p-5 gx-5 text-overlay">
-                <h2 className="pt-2">Anorev</h2>
-                <h1 className="pb-2">Service d'hypnose ericksonienne</h1>
+                <h1 className="pt-2 title">Anorev</h1>
+                <h2 className="pb-2">Service d'hypnose ericksonienne</h2>
             </Container>
         </Container>
         <Introduction/>
