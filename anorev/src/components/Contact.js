@@ -27,15 +27,24 @@ export default function Contact() {
                         <Card className="py-3">
                             <Card.Body>
                                 <Card.Title>Constant Verona</Card.Title>
-                                <Card.Text>
-                                    6 avenue de Creil<br />
-                                    Senlis 60300
+                                <Card.Text className="d-flex align-items-center">
+                                    <span class="material-icons">location_on</span>
+                                    <Container>
+                                        6 avenue de Creil<br/>
+                                        Senlis 60300
+                                    </Container>
                                 </Card.Text>
-                                <Card.Text>
-                                    <a href="mailto:anorevhypnose@gmail.com">anorevhypnose@gmail.com</a>
+                                <Card.Text className="d-flex align-items-center">
+                                    <span class="material-icons">mail</span>
+                                    <Container>
+                                        <a href="mailto:anorevhypnose@gmail.com" className="link-body-emphasis link-underline link-underline-opacity-0">anorevhypnose@gmail.com</a>
+                                    </Container>
                                 </Card.Text>
-                                <Card.Text>
-                                    <a href="tel:+33749072925">07 49 07 29 25</a>
+                                <Card.Text className="d-flex align-items-center">
+                                    <span class="material-icons">call</span>
+                                    <Container>
+                                        <a href="tel:+33749072925" className="link-body-emphasis link-underline link-underline-opacity-0">07 49 07 29 25</a>
+                                    </Container>
                                 </Card.Text>
                             </Card.Body>
                         </Card>
