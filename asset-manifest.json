@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ValerianVrn/Anorev/static/css/main.ea96e4e0.css",
+    "main.js": "/ValerianVrn/Anorev/static/js/main.a35d260c.js",
+    "static/js/787.e4728f14.chunk.js": "/ValerianVrn/Anorev/static/js/787.e4728f14.chunk.js",
+    "index.html": "/ValerianVrn/Anorev/index.html",
+    "main.ea96e4e0.css.map": "/ValerianVrn/Anorev/static/css/main.ea96e4e0.css.map",
+    "main.a35d260c.js.map": "/ValerianVrn/Anorev/static/js/main.a35d260c.js.map",
+    "787.e4728f14.chunk.js.map": "/ValerianVrn/Anorev/static/js/787.e4728f14.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ea96e4e0.css",
+    "static/js/main.a35d260c.js"
+  ]
+}
