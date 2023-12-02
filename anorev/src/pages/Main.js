@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Image from 'react-bootstrap/Image';
 import About from '../components/About';
 import Contact from '../components/Contact';
+import Footer from '../components/Footer';
 import Introduction from '../components/Introduction';
 import Information from '../components/Information';
 import Navigation from '../components/Navigation'
@@ -45,7 +46,7 @@ export default function Main() {
             <Image src="cover.jpg" className="w-100 object-fit-cover" style={{ height: imageHeight }}/>
             <Container id="text-overlay" className="p-5 gx-5 text-overlay">
                 <h1 className="pt-2 title">Anorev</h1>
-                <h2 className="pb-2">Service d'hypnose ericksonienne</h2>
+                <h2 className="pb-2">Hypnose ericksonienne à Senlis</h2>
             </Container>
         </Container>
         <Introduction/>
@@ -53,6 +54,7 @@ export default function Main() {
         <About/>
         <Questions activeKey={activeAccordionKey} handleAccordionToggle={handleNavItemClick}/>
         <Contact/>
+        <Footer/>
         </>
     );
 }
