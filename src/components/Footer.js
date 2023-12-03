@@ -8,7 +8,7 @@ export default function Footer() {
     return (
         <> 
         <hr/>       
-        <Row id="footer" className="gy-2">
+        <Row id="footer" className="gy-2 p-3">
             <Col xs className="d-flex align-items-center justify-content-center">
                 <Row>
                     <Col xs={3}>
@@ -23,11 +23,11 @@ export default function Footer() {
                 <span class="material-icons pe-2">location_on</span><span className="text-nowrap">6 avenue de Creil<br/>Senlis 60300</span>
             </Col>
             <Col xs className="d-flex align-items-center justify-content-center flex-column">
-                <Container className="d-flex align-items-center">
+                <Container className="d-flex align-items-center p-2">
                     <span class="material-icons pe-2">mail</span>
                     <a href="mailto:anorevhypnose@gmail.com" className="link-body-emphasis link-underline link-underline-opacity-0">anorevhypnose@gmail.com</a>
                 </Container>
-                <Container className="d-flex align-items-center">
+                <Container className="d-flex align-items-center p-2">
                     <span class="material-icons pe-2">call</span>
                     <a href="tel:+33749072925" className="link-body-emphasis link-underline link-underline-opacity-0 text-nowrap">07 49 07 29 25</a>
                 </Container>
