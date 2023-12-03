@@ -1,5 +1,6 @@
 import React from "react";
 import Container from 'react-bootstrap/Container';
+import Image from 'react-bootstrap/Image';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
@@ -9,7 +10,7 @@ export default function Navigation({ handleNavItemClick }) {
       <Navbar expand="lg" sticky="top" bg="dark" data-bs-theme="dark">
         <Container>
           <Navbar.Brand href="#home">
-            <img alt="logo" src="/logo512.png" width="30" height="30" className="d-inline-block align-top" />{' '}Anorev
+            <Image alt="logo" src="logo512.png" width="30" height="30" className="d-inline-block align-top" />{' '}Anorev
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">

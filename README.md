@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# Anorev
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Website for the hypnosis office of Constant Verona: https://valerianvrn.github.io/Anorev/.
+
+# Getting Started with Create React App
 
 ## Available Scripts
 
