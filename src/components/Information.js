@@ -10,8 +10,8 @@ export default function Information() {
         <>
         <Container fluid className="mx-0 px-0 bg-light">
             <Container className="p-5">
-                <Row className="gx-5">
-                    <Col>
+                <Row className="gx-5 gy-3">
+                    <Col >
                         <Card className="h-100">
                             <Card.Header className="d-flex flex-column align-items-center justify-content-center"><span class="material-icons">call</span>Téléphone</Card.Header>
                             <Card.Body className="d-flex flex-column align-items-center justify-content-center">
@@ -19,7 +19,7 @@ export default function Information() {
                             </Card.Body>
                         </Card>
                     </Col>
-                    <Col>
+                    <Col lg>
                         <Card className="h-100">
                             <Card.Header className="d-flex flex-column align-items-center justify-content-center"><span class="material-icons">schedule</span>Horaires</Card.Header>
                             <Card.Body className="d-flex flex-column align-items-center justify-content-center">
@@ -31,7 +31,7 @@ export default function Information() {
                             </Card.Body>
                         </Card>
                     </Col>
-                    <Col>
+                    <Col lg>
                         <Card className="h-100">
                             <Card.Header className="d-flex flex-column align-items-center justify-content-center"><span class="material-icons">euro</span>Tarif</Card.Header>
                             <Card.Body className="d-flex flex-column align-items-center justify-content-center">

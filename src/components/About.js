@@ -23,25 +23,25 @@ export default function About() {
             <article>
                 <Container id="office" className="p-5">
                     <Row className="gx-5">
-                        <Col>
-                            <Image src="office.jpg" fluid />
-                        </Col>
-                        <Col>
+                        <Col lg={{ order: 1 }}>
                             <h1>Le cabinet</h1>
                             <p>Le cabinet a été conçu pour créer un environnement apaisant et sécurisé. Chaque détail, de la décoration à l'aménagement des espaces, a été pensé pour favoriser une atmosphère de confiance. Nous croyons que votre bien-être commence dès le moment où vous franchissez notre porte.</p>
+                        </Col>
+                        <Col lg>
+                            <Image src="office.jpg" fluid />
                         </Col>
                     </Row>
                 </Container>                
             </article>
             <hr/>
-            <article>                
+            <article>
                 <Container id="erickson-hypnosis" className="p-5">
                     <Row className="gx-5">
-                        <Col>
+                        <Col lg>
                             <h1>L'hypnose ericksonienne</h1>
                             <p>L'hypnose ericksonienne est une approche bienveillante et puissante visant à explorer les ressources internes de chacun pour favoriser le changement positif. Contrairement aux idées préconçues, elle ne plonge pas dans un état de sommeil profond, mais plutôt dans un état de relaxation profonde où votre esprit est particulièrement réceptif aux suggestions positives.</p>
                         </Col>
-                        <Col>
+                        <Col lg>
                             <Image src="hypnosis.webp" fluid />
                         </Col>
                     </Row>
