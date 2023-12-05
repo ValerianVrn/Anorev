@@ -49,11 +49,23 @@ export default function Main() {
                 <h2 className="pb-2">Hypnose ericksonienne à Senlis</h2>
             </Container>
         </Container>
-        <Introduction/>
-        <Information/>
-        <About/>
-        <Questions activeKey={activeAccordionKey} handleAccordionToggle={handleNavItemClick}/>
-        <Contact/>
+        <Container fluid className="px-0">
+            <Container className="p-lg-5 p-4">
+                <Introduction/>
+            </Container>
+            <Container fluid className="p-lg-5 p-4 bg-light">
+                <Information/>
+            </Container>
+            <Container className="p-lg-5 p-4">
+                <About/>
+            </Container>
+            <Container fluid className="p-lg-5 p-4 bg-light">
+                <Questions activeKey={activeAccordionKey} handleAccordionToggle={handleNavItemClick}/>
+            </Container>
+            <Container fluid className="p-lg-5 p-4">
+                <Contact/>
+            </Container>
+        </Container>
         <Footer/>
         </>
     );
