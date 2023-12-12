@@ -53,11 +53,15 @@ export default function Main() {
             <Container className="p-lg-5 p-4">
                 <Introduction/>
             </Container>
-            <Container fluid className="p-lg-5 p-4 bg-light">
-                <Information/>
+            <Container fluid className="bg-light">
+                <Container className="p-lg-5 p-4 bg-light">
+                    <Information/>
+                </Container>
             </Container>
-            <Container className="p-lg-5 p-4">
-                <About/>
+            <Container fluid>
+                <Container className="p-lg-5 p-4">
+                    <About/>
+                </Container>
             </Container>
             <Container fluid className="p-lg-5 p-4 bg-light">
                 <Questions activeKey={activeAccordionKey} handleAccordionToggle={handleNavItemClick}/>
