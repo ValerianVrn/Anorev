@@ -48,8 +48,9 @@ export default function Contact() {
                         </Card.Body>
                     </Card>
                 </Col>
-                <Col className="d-flex align-items-center justify-content-center">
-                    <Schedule/>
+                <Col>
+                    <h2>Horaires</h2>
+                    <Schedule className="d-flex flex-column align-items-center justify-content-center"/>
                 </Col>
                 <Col className="d-flex align-items-center justify-content-center">
                     <BookingCalendar/>
