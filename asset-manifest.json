@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Anorev/static/css/main.d449628b.css",
-    "main.js": "/Anorev/static/js/main.f333d153.js",
+    "main.js": "/Anorev/static/js/main.1079bb9d.js",
     "static/js/787.e4728f14.chunk.js": "/Anorev/static/js/787.e4728f14.chunk.js",
     "index.html": "/Anorev/index.html",
     "main.d449628b.css.map": "/Anorev/static/css/main.d449628b.css.map",
-    "main.f333d153.js.map": "/Anorev/static/js/main.f333d153.js.map",
+    "main.1079bb9d.js.map": "/Anorev/static/js/main.1079bb9d.js.map",
     "787.e4728f14.chunk.js.map": "/Anorev/static/js/787.e4728f14.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d449628b.css",
-    "static/js/main.f333d153.js"
+    "static/js/main.1079bb9d.js"
   ]
 }
