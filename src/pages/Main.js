@@ -70,7 +70,9 @@ export default function Main() {
                 <Contact/>
             </Container>
         </Container>
-        <Footer/>
+        <Container fluid className="p-2 bg-primary text-white">
+            <Footer/>
+        </Container>
         </>
     );
 }
