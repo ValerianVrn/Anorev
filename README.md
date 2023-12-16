@@ -6,10 +6,11 @@ Website for the hypnosis office of Constant Verona: https://valerianvrn.github.i
 
 - feat: Theming
 - refactor: Calendar hover color, hover tooltip...
-- feat: Schedule: badge "opened today"
+- feat: Schedule: badge "opened today", add a legend for opened, dsiable hover
 - bug(navigation): close when clicked, check scroll display
 - feat(appointment): use third-party appointment planner
 - bug(calendar): highlighted days wrong when new month
+- bug(theming): navigation color, mail underline in footer, corner in card
 
 # Getting Started with Create React App
 
