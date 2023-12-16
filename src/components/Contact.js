@@ -54,9 +54,9 @@ export default function Contact() {
                 <Col className="d-flex align-items-center justify-content-center">
                     <BookingCalendar/>
                 </Col>
-                <Container className="pt-4 d-flex justify-content-center">
+                {/* <Container className="pt-4 d-flex justify-content-center">
                     <Button variant="success" href="">Prendre rendez-vous en ligne</Button>
-                </Container>
+                </Container> */}
             </Row>
         </section>
         </>
