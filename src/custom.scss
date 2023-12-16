@@ -1,20 +1,17 @@
 @import "../node_modules/bootstrap/scss/functions"; 
 @import "../node_modules/bootstrap/scss/variables";
 
-$primary:                           $purple;
-$secondary:                         $purple-200;
-$tertiary:                          $purple-100;
-$success:                           $yellow;
-$success-bg-subtle:                 $yellow-100;
+$primary:                               $purple;
+$secondary:                             $purple-200;
+$tertiary:                              $purple-100;
+$success:                               $yellow;
+$success-bg-subtle:                     $yellow-100;
 $success-border-subtle:                 $yellow-500;
-// $accordion-color:                         var(--#{$prefix}body-color);
-// $accordion-bg:                            var(--#{$prefix}body-bg);
-// $accordion-border-color:                  $primary;
-// $accordion-button-color:                  $white;
-$accordion-button-bg:                     $secondary;
-$accordion-button-active-bg:              $primary;
-$accordion-button-active-color:              $white;
-$accordion-button-focus-box-shadow:       $primary;
+$accordion-button-bg:                   $secondary;
+$accordion-button-active-bg:            $primary;
+$accordion-button-active-color:         $white;
+$accordion-button-focus-box-shadow:     $primary;
+$font-family-sans-serif:                "Times", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 
 $theme-colors: map-merge($theme-colors, (
     "primary": $primary,

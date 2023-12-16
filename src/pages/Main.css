@@ -9,6 +9,6 @@
     transform: translate(-50%, -50%);
 }
 
-.title {
-    font-family: 'Comic Neue', serif;
+.title, h1, h2 {
+    font-family: 'EB Garamond', serif;
 }
