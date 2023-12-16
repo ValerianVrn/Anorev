@@ -53,8 +53,8 @@ export default function Main() {
             <Container className="p-lg-5 p-4">
                 <Introduction/>
             </Container>
-            <Container fluid className="bg-light">
-                <Container className="p-lg-5 p-4 bg-light">
+            <Container fluid className="bg-tertiary">
+                <Container className="p-lg-5 p-4">
                     <Information/>
                 </Container>
             </Container>
@@ -63,7 +63,7 @@ export default function Main() {
                     <About/>
                 </Container>
             </Container>
-            <Container fluid className="p-lg-5 p-4 bg-light">
+            <Container fluid className="p-lg-5 p-4 text-bg-tertiary">
                 <Questions activeKey={activeAccordionKey} handleAccordionToggle={handleNavItemClick}/>
             </Container>
             <Container fluid className="p-lg-5 p-4">
