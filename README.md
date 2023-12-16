@@ -2,6 +2,15 @@
 
 Website for the hypnosis office of Constant Verona: https://valerianvrn.github.io/Anorev/.
 
+# Further evolutions
+
+- feat: Theming
+- refactor: Calendar hover color, hover tooltip...
+- feat: Schedule: badge "opened today"
+- bug(navigation): close when clicked, check scroll display
+- feat(appointment): use third-party appointment planner
+- bug(calendar): highlighted days wrong when new month
+
 # Getting Started with Create React App
 
 ## Available Scripts
