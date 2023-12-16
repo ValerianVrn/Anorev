@@ -10,17 +10,17 @@ export default function Information() {
         <>
         <Row className="gx-5 gy-3">
             <Col lg>
-                <Card className="h-100">
+                <Card className="h-100 text-bg-primary">
                     <Card.Header className="d-flex flex-column align-items-center justify-content-center"><span class="material-icons">call</span>Téléphone</Card.Header>
-                    <Card.Body className="d-flex flex-column align-items-center justify-content-center">
+                    <Card.Body className="d-flex flex-column align-items-center justify-content-center bg-white text-primary">
                         <Card.Title href="tel:+33749072925">07 49 07 29 25</Card.Title>
                     </Card.Body>
                 </Card>
             </Col>
             <Col lg>
-                <Card className="h-100">
+                <Card className="h-100 text-bg-primary">
                     <Card.Header className="d-flex flex-column align-items-center justify-content-center"><span class="material-icons">schedule</span>Horaires</Card.Header>
-                    <Card.Body className="d-flex flex-column align-items-center justify-content-center">
+                    <Card.Body className="d-flex flex-column align-items-center justify-content-center bg-white text-primary">
                         <Card.Title>10h-19h</Card.Title>
                         <Card.Text>
                             Tous les mardis, jeudis, vendredis (semaines paires) et samedis (semaines impaires)<br/>
@@ -30,9 +30,9 @@ export default function Information() {
                 </Card>
             </Col>
             <Col lg>
-                <Card className="h-100">
+                <Card className="h-100 text-bg-primary">
                     <Card.Header className="d-flex flex-column align-items-center justify-content-center"><span class="material-icons">euro</span>Tarif</Card.Header>
-                    <Card.Body className="d-flex flex-column align-items-center justify-content-center">
+                    <Card.Body className="d-flex flex-column align-items-center justify-content-center bg-white text-primary">
                         <Card.Title>60€ la séance</Card.Title>
                     </Card.Body>
                 </Card>

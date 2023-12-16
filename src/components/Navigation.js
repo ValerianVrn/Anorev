@@ -7,7 +7,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 export default function Navigation({ handleNavItemClick }) {
   return (
-      <Navbar expand="lg" sticky="top" bg="dark" data-bs-theme="dark">
+      <Navbar expand="lg" sticky="top" bg="light" data-bs-theme="light">
         <Container>
           <Navbar.Brand href="#home">
             <Image alt="logo" src="logo512.png" width="30" height="30" className="d-inline-block align-top" />{' '}Anorev
