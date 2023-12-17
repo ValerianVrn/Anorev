@@ -3,9 +3,9 @@ import React from "react";
 export default function Introduction() {
     return (
         <>
-        <p>Bienvenue dans le monde de l’hypnose ericksonienne, où la transformation personnelle commence. Je suis Constant Verona, un hypnotiseur passionné par l’exploration des profondeurs de la psyché humaine pour aider chacun à surmonter ses défis et à atteindre son potentiel le plus élevé.</p>
-        <p>Ma démarche repose sur la manière de faire de Milton Erickson. Cette approche permet une transformation subtile et durable. Je crois en l’adaptabilité, en l’écoute et en la confiance dans la relation avec vous. Chaque séance est une expérience unique, conçue sur mesure pour répondre à vos besoins spécifiques.</p>
-        <p>Si vous êtes prêt à entamer votre voyage de transformation personnelle, n’hésitez pas à me contacter. Je suis là pour vous guider vers un avenir meilleur.</p>
+        <p>Bienvenue dans le monde de l’hypnose ericksonienne. Je suis Constant Verona, un hypnotiseur passionné qui souhaite aider chacun à surmonter ses défis et à atteindre son meilleur potentiel.</p>
+        <p>Ma démarche repose sur la manière de faire de Milton Erickson. Cette approche permet une transformation subtile et durable. Je crois en l’adaptabilité, en l’écoute et en la confiance dans la relation avec vous. Chaque séance est une expérience unique, conçue sur mesure pour répondre à vos besoins.</p>
+        <p>Si vous êtes prêt à entamer votre voyage de transformation personnelle, n’hésitez pas à me contacter.</p>
         <h2>L’hypnose, là où je peux vous aider</h2>
         <p>Découvrez les domaines dans lesquels l’hypnose ericksonienne peut faire la différence :</p>
         <ul>

@@ -20,7 +20,7 @@ export default function Schedule() {
                 </tr>
                 <tr>
                     <th className="align-middle">Jeudi</th>
-                    <td rowSpan={3} className="align-middle text-center">10h-19h<br/>14-18h (sans RDV)</td>
+                    <td rowSpan={3} className="align-middle text-center">10h-19h<br/>14h-18h (sans RDV)</td>
                 </tr>
                 <tr>
                     <th className="align-middle">Vendredi pair</th>
