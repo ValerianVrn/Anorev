@@ -9,7 +9,7 @@ export default function Navigation({ handleNavItemClick }) {
   return (
       <Navbar expand="lg" sticky="top" bg="light" data-bs-theme="light">
         <Container>
-          <Navbar.Brand href="#home">
+          <Navbar.Brand href="#home" className="title">
             <Image alt="logo" src="logo512.png" width="30" height="30" className="d-inline-block align-top" />{' '}Anorev
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
