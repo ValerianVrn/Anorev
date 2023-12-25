@@ -1,6 +1,8 @@
 # Anorev
 
-Website for the hypnosis office of Constant Verona: https://valerianvrn.github.io/Anorev/.
+Website for the hypnosis office of Constant Verona: 
+- Production: https://www.anorevhypnose.fr/
+- Test: https://valerianvrn.github.io/Anorev/.
 
 # Further evolutions
 
@@ -74,6 +76,22 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 ### Deployment
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+To deploy on GH Pages:
+1) Update the `homepage` property in `package.json` file to:
+```
+"homepage": "https://valerianvrn.github.io/Anorev"
+```
+2) Run `npm run deploy`.
+
+To deploy on production:
+1) Update the `homepage` property in `package.json` file to:
+```
+"homepage": "https://www.anorevhypnose.fr/"
+```
+2) Run `npm run build`
+3) Copy the content of the `build` folder
+4) Upload the files via FTP in the `www` folder on the FTP server of the web host
 
 ### `npm run build` fails to minify
 
